@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>market</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="market.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="dashboard border">
+          <a href="#">Dashboard</a>
+        </div>
+        <div class="forum border">
+           <a href="#">Forum</a>
+        </div>
+        <div class="marketplace border">
+           <a href="#">MarketPlace</a>
+        </div>
+        <div class="education border">
+           <a href="#">Educational Resources</a>
+        </div>
+        <div class="signin border">
+           <a href="#"> Log In</a>
+       </div>
+    </div>
+    <div class="container">
+        <h2>Welcome to our MARKET</h2>
+        <!--PRoducts saare-->
+        <div class="listp">
+            
+            <div class="boxp">
+                <div class="one">
+                    <img src="seeds1.jpg" alt="Basil Seeds">
+                    <div class="info1">
+                        <p>
+                            Basil Seeds<br>
+                            Price: 2000 rupees
+                        </p>
+                        <button class="add-to-cart" data-product="seeds" data-price="2000">Add to cart</button>
+                    </div>
+                </div>
+                <div class="two">
+                    <img src="pesticicdes.jpg" alt="Pesticides">
+                    <div class="info2">
+                        <p>
+                            Pesticides<br>
+                            Price: 3000 rupees
+                        </p>
+                        <button class="add-to-cart" data-product="pesticides" data-price="3000">Add to cart</button>
+                    </div>
+                </div>
+                <div class="three">
+                    <img src="weed.jpg" alt="Weed Killer">
+                    <div class="info3">
+                        <p>
+                            Weed Killer<br>
+                            Price: 3000 rupees
+                        </p>
+                        <button class="add-to-cart" data-product="weed" data-price="3000">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!--Cart-->
+        <div class="cartpart">
+            <button id="cart-button">Your Cart (0 items)</button>
+            <div id="cart-details" class="hidden">
+                <div class="citems">
+                    <p>Your cart is empty.</p>
+                </div>
+                <div class="total">
+                    <p>Total Rupees: <span id="total">0</span></p>
+                </div>
+                <button id="checkout">Proceed to Checkout</button> <!-- Included in the cart details -->
+            </div>
+        </div>
+        <!--review-->
+        <div class="review">
+            <h3>Product review</h3>
+            <div class="boxr1">
+                <h4>Basil Seeds</h4>
+                <p>Rating: 5/5</p>
+                
+            </div>
+            <div class="boxr2">
+                <h3>Pesticides</h3>
+                <p>Rating: 4/5</p>
+                <p>Nice</p>
+            </div>
+        </div>
+    </div>
+</section>
+<script src="#"></script>    
+</body>
+</html>

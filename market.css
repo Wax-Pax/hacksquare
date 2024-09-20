@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box; /* Corrected 'border' to 'box-sizing' */
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+}
+
+
+}
+
+p {
+    color: #555;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    display: block;
+    justify-content: center;
+}
+
+
+
+
+
+.navbar{
+    width:100%;
+    height: 60px;
+    background-color: #80AF81;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: larger;
+    font-weight: bolder;
+}
+a{
+    text-decoration: none;
+    color:#1a5319;
+}
+.border{
+    border:2px solid transparent;
+    border-radius: 2px;
+    padding-right: 15px;
+    padding-left: 15px
+}
+.border:hover{
+    border:2px solid black;
+    border-radius: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+h2 {
+    text-align: center;
+    color: #2d6a4f;
+    margin-bottom: 10px; 
+}
+
+
+
+.listp {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: nowrap; 
+    justify-content: center;
+    
+}
+
+.boxp {
+    display: flex; 
+    justify-content: space-around; 
+}
+
+.one, .two, .three {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    width: 280px; 
+    text-align: center;
+    transition: box-shadow 0.3s ease;
+}
+
+.one img, .two img, .three img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.one img:hover, .two img:hover, .three img:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.review {
+    margin-top: 40px;
+}
+
+.boxr1, .boxr2 {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cartpart {
+    position: fixed;
+    top: 60px;
+    right: 20px;
+    z-index: 1000;
+}
+
+#cart-button {
+    background-color: transparent;
+    color: #2d6a4f;
+    border: 2px solid #2d6a4f;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#cart-button:hover {
+    background-color: #2d6a4f;
+    color: white;
+}
+
+.hidden {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+#checkout {
+    background-color: #2d6a4f;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+#checkout:hover {
+    background-color: #1f4e3b;
+}
